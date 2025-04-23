@@ -1,0 +1,107 @@
+# 🪙 BBC Token - Whitepaper
+
+## 📌 Introduction
+
+**BBC Token** (Blockchain-Based Currency) is a next-generation ERC-20 token designed to power an automated, decentralized ecosystem. It introduces mechanisms for price stabilization, yield distribution, AI-powered arbitrage, and market defense — governed entirely on Ethereum.
+
+---
+
+## 🎯 Mission Statement
+
+To build a secure, self-regulating, and community-driven token economy that prioritizes sustainable utility, fair market participation, and automated defense against manipulation and volatility.
+
+---
+
+## 🚀 Key Features
+
+1. **ERC-20 Compatible** – Seamless with major wallets and exchanges.
+2. **Autonomous Buyback (BBCGuard)** – Chainlink-driven ETH buybacks when price drops below a floor.
+3. **AI-Powered Arbitrage** – AI arbitrage bot uses flash loans to stabilize price across DEXs.
+4. **Flash Loan Integration** – Supports flash loans for zero-capital arbitrage execution.
+5. **Automated Rewards (Distributor)** – Daily token emission with capped distribution.
+6. **Circuit Breaker & Pause Controls** – Trigger global pause in critical scenarios.
+7. **Slippage Protection** – Adjustable max slippage to prevent MEV abuse.
+8. **Upgradeable Architecture** – Modular smart contracts for future expansion.
+
+---
+
+## 📊 Tokenomics
+
+| Parameter              | Value                              |
+|------------------------|-------------------------------------|
+| Name                   | BBC Token                           |
+| Symbol                 | BBC                                 |
+| Decimals               | 18                                  |
+| Total Supply           | 100,000,000 BBC                     |
+| Contract Address       | `0x0c7742F591EDb3B948A6363E3EFD8f0064AdC5Ba` |
+| Token Standard         | ERC-20                              |
+
+### Allocation
+
+| Category              | Allocation | Purpose                                |
+|-----------------------|------------|----------------------------------------|
+| Liquidity Pool        | 60%        | Paired with ETH on Uniswap             |
+| Team & Treasury       | 40%        | Operations, reserves, growth           |
+| Community Campaigns   | TBD        | Future rewards and airdrops            |
+
+---
+
+## 🧠 Smart Contracts
+
+| Contract                  | Description                                      |
+|---------------------------|--------------------------------------------------|
+| **BBCToken**              | Main token contract with pause and slippage control. |
+| **BBCGuard**              | Performs buybacks, pauses during dumps.          |
+| **BBCRewardDistributor**  | Daily emission system with configurable caps.     |
+| **BBCAIAutonomousArbitrage** | AI arbitrage bot across multiple DEXs.         |
+| **MockPool**              | Flash loan testing/utility pool.                 |
+
+---
+
+## 🔧 Use Cases
+
+- **DEX Trading Pair** – BBC is tradable on Uniswap V2.
+- **Yield Distribution** – Token rewards via Distributor contract.
+- **Buybacks** – ETH-funded price floor protection.
+- **Arbitrage** – Flash-loan and AI-powered cross-DEX arbitrage.
+
+---
+
+## 🔒 Security
+
+- OpenZeppelin v5.3+ contracts used throughout.
+- Slippage & circuit breakers reduce exploit vectors.
+- Contract ownership protected and upgrade-ready.
+
+---
+
+## 🗺️ Roadmap
+
+| Quarter | Milestone                                           |
+|---------|-----------------------------------------------------|
+| Q1 2025 | Deploy core contracts, Uniswap liquidity            |
+| Q2 2025 | Launch AI bot, dashboard, reward emission           |
+| Q3 2025 | DAO-style governance, slippage auto-tuning          |
+| Q4 2025 | L2 expansion (Optimism/Arbitrum), CEX integrations  |
+
+---
+
+## 🧑‍💻 Governance & Control
+
+Initially governed by the deployer’s address and team multisig. Roadmap includes progressive decentralization into a DAO model.
+
+---
+
+## 🔗 Resources
+
+- 🌐 Website: [https://bbctoken.ai](https://bbctoken.ai)
+- 📄 Contract: [`0x0c7742F591EDb3B948A6363E3EFD8f0064AdC5Ba`](https://etherscan.io/address/0x0c7742F591EDb3B948A6363E3EFD8f0064AdC5Ba)
+- 🧵 Twitter/X: [@bbc_token](https://twitter.com/bbc_token)
+- 📬 Telegram: [https://t.me/bbc_token](https://t.me/bbc_token)
+- 💬 Discord: [https://discord.gg/bbc-token](https://discord.gg/bbc-token)
+- 💻 GitHub: [https://github.com/bbc-token](https://github.com/bbc-token)
+
+---
+
+> *Note: This document is for informational purposes only and does not constitute financial advice.*
+
