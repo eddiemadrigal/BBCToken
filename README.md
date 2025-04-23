@@ -5,7 +5,7 @@
 ---
 
 ## 🌐 Website  
-[https://bbctoken.xyz](https://bbctoken.xyz) (Coming Soon)
+[https://bbctoken.org](https://bbctoken.org)
 
 ---
 
