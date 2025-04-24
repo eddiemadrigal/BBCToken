@@ -170,4 +170,9 @@ contract BBCAIAutonomousArbitrage is ReentrancyGuard, IFlashLoanReceiver {
     function rescueToken(address token, uint256 amount) external onlyOwner {
         IERC20(token).transfer(owner, amount);
     }
+
+    /**
+    * @notice Accept direct ETH transfers for funding arbitrage operations.
+    */
+    receive() external payable {}
 }
